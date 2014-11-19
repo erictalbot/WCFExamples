@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="71f11863-ff1d-464a-bc87-62690b6adfb3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://test_adfswcf.canam.ws/Service1.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="ef97c0a6-426a-476b-8154-3e598154c4b5" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="ebe79f44-3eba-41cf-80fe-833237c3cb02" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Service11.wsdl" MetadataType="Wsdl" ID="74b2e272-8d31-42df-9b1e-d513d75a26ad" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?wsdl" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="61eb5c7b-ad0b-4e92-9b16-fedb267b2d5d" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="aa6835c6-66d3-462c-82d4-85d5d0a09ca9" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="5a2ad717-b3e0-4050-a7ae-6597b765e0a7" SourceId="1" SourceUrl="http://test_adfswcf.canam.ws/Service1.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Canam.IAM</id>
+    <version>1.0.1</version>
+    <authors>erictalb</authors>
+    <owners>erictalb</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows to use Canam Identity and Access Management System from within  ASP.NET MVC</description>
+    <summary>Identity and Access Management</summary>
+  </metadata>
+</package>
