@@ -17,7 +17,7 @@ namespace WCFMultipleEndpoints
             /*
              * In order to know which endpoint was called we could do one of the following : 
              * 1- Check if ServiceSecurityContext.Current is null -> If anonymous means we used the endpoint  address="/unsecured"
-             * 2- Use a different contract by endpoint. 
+             * 2- Use a different contract by endpoint. See the next example 4 for that.
              * */
 
             return (ServiceSecurityContext.Current == null ? string.Empty:ServiceSecurityContext.Current.WindowsIdentity.Name);
